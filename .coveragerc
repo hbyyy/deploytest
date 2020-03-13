@@ -4,3 +4,7 @@ source =
 omit =
     app/manage.py
     app/config/wsgi.py
+
+[report]
+exclude_lines  =
+    def __str__
