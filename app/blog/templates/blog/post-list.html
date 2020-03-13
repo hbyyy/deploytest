@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -9,8 +9,8 @@
 </head>
 <body>
 {% for post in posts %}
-    {{ post.title }}
-    {{ post.content }}
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
 {% endfor %}
 </body>
 </html>
